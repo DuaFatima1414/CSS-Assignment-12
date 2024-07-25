@@ -1,0 +1,142 @@
+header {
+  background-color: #e89292;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 3;
+}
+nav {
+  width: 80%;
+  /* border: 1px solid white; */
+  margin: auto;
+}
+ul {
+  /* border: 1px solid green; */
+  float: right;
+  margin-right: 70px;
+  margin-top: 35px;
+}
+nav > img {
+  width: 200px;
+  height: 100px;
+  vertical-align: middle;
+}
+li {
+  display: inline-block;
+  padding: 5px 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+}
+li:hover {
+  color: rgb(21, 28, 229);
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 5px;
+  cursor: pointer;
+}
+#slider {
+  position: relative;
+  /* margin-top: 50px; */
+}
+#slider > img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+#slider-text {
+  background-color: #dd7474;
+  width: 30%;
+  position: absolute;
+  top: 140px;
+  right: 50px;
+  padding: 10px;
+}
+#slider-text > h1 {
+  font-family: "Playwrite HR", cursive;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #167ce3;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+#slider-text > p {
+  color: #167ce3;
+  text-align: justify;
+}
+#about {
+  background-color: #dd7474;
+  color: #167ce3;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+#about-section {
+  width: 100%;
+}
+#about-section > #left {
+  width: 50%;
+  float: left;
+}
+#left > img {
+  width: 100%;
+}
+#right {
+  width: 50%;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#right >p:first-letter{
+  color: #dd7474;
+  font-size: 36px;
+  font-family: "Playwrite HR", cursive;
+}
+#right > p {
+  text-align: justify;
+}
+#items {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  /* background-color: violet; */
+}
+#items > h2 {
+  background-color: #dd7474;
+  font-size: 36px;
+  color: #167ce3;
+  text-transform: uppercase;
+}
+#items > #item {
+  width: 30%;
+  border: 2px solid #000000;
+  padding: 5px;
+  float: left;
+  margin-left: 25px;
+}
+#item:hover {
+  box-shadow: 10px 5px 5px #dd7474;
+}
+
+#item > img {
+  width: 100%;
+}
+#item > p {
+  text-align: justify;
+}
+button {
+  background-color: #dd7474;
+  font-size: 24px;
+  border-radius: 10px;
+  color: #e7ee15;
+  float: right;
+  border: none;
+  width: 150px;
+  height: 50px;
+}
+button:hover{
+  color: #e12f2f;
+  background-color: #dd7474;
+  cursor: pointer;
+  font-weight: bold;
+}
